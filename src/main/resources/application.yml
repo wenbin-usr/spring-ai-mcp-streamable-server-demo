@@ -1,0 +1,12 @@
+spring:
+  ai:
+    mcp:
+      server:
+        protocol: streamable
+        name: streamable-mcp-server-demo
+        version: 1.0.0
+        streamable-http:
+          mcp-endpoint: /mcp
+
+  application:
+    name: spring-ai-mcp-server-demo
